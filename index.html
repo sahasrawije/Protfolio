@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/75efbad15a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "header">
+    <div class = "container">
+        <nav>
+            <img src="images/logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-caret-down" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Project Manager</p>
+            <h1>Hi,I'm<span> Sahasra</span><br> Wijethunge From Anuradhapura</h1>
+        </div>
+            
+    </div>
+
+</div>
+<!----------------about----------->
+
+<div id="about"> 
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/my girl.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello! I'm Sahasra Wijethunge, a 23-year-old graduated majoring in Information Systems. My passion for technology has led me to develop strong programming,web development skills,HR managing and project managing skills. When I'm not immersed in the digital world, I enjoy hobbies like chess, swimming, and dancing. Alongside my technical skills, I pride myself on being an excellent communicator, both in English and with people from various backgrounds. I thrive on social interactions and look forward to connecting and learning from others in the field 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Project Management</span><br>Planning the project</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>HR management</span><br>Financial Management</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - current</span><br>Project management training at ET Institute</li>
+                        <li><span>2022 - 2023</span><br>Quality Assuarance at Tech One Global </li>
+                        <li><span>2020-2021</span><br>HR management trainee at Ekart eCommrce</li>
+                        <li><span>2020</span><br>Internship at ekart eCommerce</li>
+                    </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020</span><br>Graduate in Information Systems</li>
+                    <li><span>2020</span><br>CIMA Qualified Certification</li>
+                    <li><span>2019</span><br>Diploma in Financial Management</li>
+                    <li><span>2019</span><br>Diploma in English in Rajarata University</li>
+                </ul>
+            </div>
+                
+
+
+        </div>
+    </div>
+</div>
+<!-----------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Project management</h2>
+                <p>I can help define the overall project budget and specific timelines for task completion. While managing the plan, project management services must operate within a recognized framework that ensures accurate and objective reporting.</p>
+                <a href="#">Learn more</a> 
+            </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Development</h2>
+            <p>delivering websites or web apps, cybersecurity solutions, UX/UI design, eCommerce solutions, website architectures, QA testing, maintenance, consulting, and even a custom CMS.</p>
+            <a href="#">Learn more</a> 
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>HR Managing consultation</h2>
+            <p>I have responsible for managing the employee life cycle such as recruiting, hiring, onboarding, training, and firing employees and administering employee benefits.</p>
+            <a href="#">Learn more</a> 
+        </div>
+    </div>
+
+
+
+</div>
+<!---------------portfolio--------------------->
+<div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/social media.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.Download it from play store.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+
+
+        </div>
+        <div class="work">
+            <img src="images/music app.jpg">
+            <div class="layer">
+                <h3>Music Streaming App</h3>
+                <p>It is a type of streaming media service that focuses primarily on music, and sometimes other forms of digital audio content such as podcasts.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+
+    </div>
+    <div class="work">
+        <img src="images/result manage.png">
+        <div class="layer">
+            <h3>Result Management System</h3>
+            <p>It is a web-based tool designed to automate the administration of semester results by tracking students' grades.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div> 
+    </div>
+     </div>
+     <a href="#" class="btn">See more</a>
+</div>
+<!---------------contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@sahasrawije.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+94 711442411</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            <div class="contact-left">
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright sahasra.Made With<i class="fa-solid fa-heart"></i> By Web technologies </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+        
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwcHNyHm8256WLTacMphSIDkznBV42Xa2qHKpUE8qjbgQlloialuUpCmmuNiwqFkxjt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") 
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</head>
+</html>
